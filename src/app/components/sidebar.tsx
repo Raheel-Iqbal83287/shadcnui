@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = () => {
   return (
     <div>
-      <div className="px-1 py-2">
+      <div className="px-1 py-2">         
         <h2 className="mb-2 px-4 text-lg font-semibold">
           Discover
         </h2>
@@ -86,7 +86,7 @@ const Sidebar = () => {
               <circle cx="8" cy="18" r="4"></circle>
               <path d="M12 18V2l7 4"></path>
             </svg>
-            Songs
+            AI Website
           </button>
           <button className="inline-flex items-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 w-full justify-start">
             <svg
@@ -102,7 +102,7 @@ const Sidebar = () => {
               <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
             </svg>
-            Made for You
+            Personal Website
           </button>
           <button className="inline-flex items-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 w-full justify-start">
             <svg
@@ -118,7 +118,7 @@ const Sidebar = () => {
               <path d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"></path>
               <circle cx="17" cy="7" r="5"></circle>
             </svg>
-            Artists
+            Portfolio 1
           </button>
           <button className="inline-flex items-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 w-full justify-start">
             <svg
@@ -136,7 +136,7 @@ const Sidebar = () => {
               <path d="M8 8v12"></path>
               <path d="M4 4v16"></path>
             </svg>
-            Albums
+            Portfolio 2
           </button>
         </div>
       </div>
