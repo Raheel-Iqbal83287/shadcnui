@@ -14,14 +14,14 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div>
-      <Tabs defaultValue="tab1" className="w-[900px]">
+    <div className="container">
+      <Tabs defaultValue="tab1" className="w-[700px]">
         <TabsList className="grid w-full grid-cols-5">
-          <TabsTrigger value="tab1">Catalogue</TabsTrigger>
-          <TabsTrigger value="tab2">AI Website</TabsTrigger>
-          <TabsTrigger value="tab3">Personal Website</TabsTrigger>
-          <TabsTrigger value="tab4">Portfolio 1</TabsTrigger>
-          <TabsTrigger value="tab5">Portfolio 2</TabsTrigger>
+          <TabsTrigger value="tab1" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Projects Catalogue</TabsTrigger>
+          <TabsTrigger value="tab2" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">AI Website</TabsTrigger>
+          <TabsTrigger value="tab3" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Personal Website</TabsTrigger>
+          <TabsTrigger value="tab4" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Portfolio 1</TabsTrigger>
+          <TabsTrigger value="tab5" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Portfolio 2</TabsTrigger>
         </TabsList>
 
         <div>
@@ -36,7 +36,7 @@ const Projects = () => {
                         href="https://allaboutaidomain.vercel.app/"
                         target="_blank"
                       >
-                        <img src="/Proj1screenshot.png" alt="aiwebsite" />
+                        <img src="/Proj1screenshot.png" alt="aiwebsite" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto" />
                       </Link>
                     </CardHeader>
                   </Card>
@@ -52,7 +52,7 @@ const Projects = () => {
                         href="https://personalwebsite-my.vercel.app/"
                         target="_blank"
                       >
-                        <img src="/Proj2screenshot.png" alt="personalweb" />
+                        <img src="/Proj2screenshot.png" alt="personalweb" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                       </Link>
                     </CardHeader>
                   </Card>
@@ -68,7 +68,7 @@ const Projects = () => {
                         href="https://portfoliowebsite-my.vercel.app/"
                         target="_blank"
                       >
-                        <img src="/Proj3screenshot.png" alt="portfolio1" />
+                        <img src="/Proj3screenshot.png" alt="portfolio1" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                       </Link>
                     </CardHeader>
                   </Card>
@@ -84,7 +84,7 @@ const Projects = () => {
                         href="https://portfolioenhanced.vercel.app/"
                         target="_blank"
                       >
-                        <img src="/Proj4screenshot.png" alt="portfolio2" />
+                        <img src="/Proj4screenshot.png" alt="portfolio2" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                       </Link>
                     </CardHeader>
                   </Card>
@@ -110,7 +110,7 @@ const Projects = () => {
                       href="https://allaboutaidomain.vercel.app/"
                       target="_blank"
                     >
-                      <img src="/Proj1screenshot.png" alt="aiweb" />
+                      <img src="/Proj1screenshot.png" alt="aiweb" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </Link>
                   </CardHeader>
                 </Card>
@@ -132,7 +132,7 @@ const Projects = () => {
                       href="https://personalwebsite-my.vercel.app/"
                       target="_blank"
                     >
-                      <img src="/Proj2screenshot.png" alt="personalweb" />
+                      <img src="/Proj2screenshot.png" alt="personalweb" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </Link>
                   </CardHeader>
                 </Card>
@@ -154,7 +154,7 @@ const Projects = () => {
                       href="https://portfoliowebsite-my.vercel.app/"
                       target="_blank"
                     >
-                      <img src="/Proj3screenshot.png" alt="portfolio1" />
+                      <img src="/Proj3screenshot.png" alt="portfolio1" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </Link>
                   </CardHeader>
                 </Card>
@@ -176,7 +176,7 @@ const Projects = () => {
                       href="https://portfolioenhanced.vercel.app/"
                       target="_blank"
                     >
-                      <img src="/Proj4screenshot.png" alt="portfolio2" />
+                      <img src="/Proj4screenshot.png" alt="portfolio2" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </Link>
                   </CardHeader>
                 </Card>

@@ -11,15 +11,15 @@ import Link from "next/link";
 
 const Skills = () => {
   return (
-    <div>
-      <Tabs defaultValue="tab1" className="w-[700px]">
+    <div className="container">
+      <Tabs defaultValue="tab1" className="w-[730px]">
         <TabsList className="grid grid-cols-6">
-          <TabsTrigger value="tab1">Catalogue</TabsTrigger>
-          <TabsTrigger value="tab2">Structuring</TabsTrigger>
-          <TabsTrigger value="tab3">Design/Layout</TabsTrigger>
-          <TabsTrigger value="tab4">Programming</TabsTrigger>
-          <TabsTrigger value="tab5">Framework</TabsTrigger>
-          <TabsTrigger value="tab6">UI/UX</TabsTrigger>
+          <TabsTrigger value="tab1" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Skills Catalogue</TabsTrigger>
+          <TabsTrigger value="tab2" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Structuring</TabsTrigger>
+          <TabsTrigger value="tab3" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Design/Layout</TabsTrigger>
+          <TabsTrigger value="tab4" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Programming</TabsTrigger>
+          <TabsTrigger value="tab5" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">Framework</TabsTrigger>
+          <TabsTrigger value="tab6" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto">UI/UX</TabsTrigger>
         </TabsList>
 
         <div>
@@ -30,7 +30,7 @@ const Skills = () => {
                   <Card className="h-[170px] w-[160px]">
                     <CardHeader>
                       <CardTitle>Structuring</CardTitle>
-                      <img src="/html.png" alt="html" />
+                      <img src="/html.png" alt="html" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </CardHeader>
                   </Card>
                 </div>
@@ -41,7 +41,7 @@ const Skills = () => {
                   <Card className="h-[170px] w-[190px]">
                     <CardHeader>
                       <CardTitle>Design/Layout</CardTitle>
-                      <img src="/tailwindcss.png" alt="css" />
+                      <img src="/tailwindcss.png" alt="css" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </CardHeader>
                   </Card>
                 </div>
@@ -52,7 +52,7 @@ const Skills = () => {
                   <Card className="h-[170px] w-[230px]">
                     <CardHeader>
                       <CardTitle>Programming</CardTitle>
-                      <img src="/tscript.png" alt="typscrpit"  />
+                      <img src="/tscript.png" alt="typscrpit" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </CardHeader>
                   </Card>
                 </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                   <Card className="h-[175px] w-[200px]">
                     <CardHeader>
                       <CardTitle>Frameworks</CardTitle>
-                      <img src="/nextjs.png" alt="nextjs" />
+                      <img src="/nextjs.png" alt="nextjs" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </CardHeader>
                   </Card>
                 </div>
@@ -74,7 +74,7 @@ const Skills = () => {
                   <Card className="h-[175px] w-[200px]">
                     <CardHeader>
                       <CardTitle>UI/UX</CardTitle>
-                      <img src="/shadcnui.png" alt="shadcnui" />
+                      <img src="/shadcnui.png" alt="shadcnui" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </CardHeader>
                   </Card>
                 </div>
@@ -92,7 +92,7 @@ const Skills = () => {
               <div className="">
                 <Card className="w-[200px]">
                   <CardHeader>
-                    <img src="/html.png" alt="html" />
+                    <img src="/html.png" alt="html" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                   </CardHeader>
                 </Card>
               </div>
@@ -110,7 +110,7 @@ const Skills = () => {
               <div className="space-y-1">
                 <Card className="w-[350px]">
                   <CardHeader>
-                    <img src="/tailwindcss.png" alt="tailwindcss" />
+                    <img src="/tailwindcss.png" alt="tailwindcss" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                   </CardHeader>
                 </Card>
               </div>
@@ -127,7 +127,7 @@ const Skills = () => {
               <div className="space-y-1">
                 <Card className="w-[350px]">
                   <CardHeader>
-                    <img src="/tscript.png" alt="typscrpit" />
+                    <img src="/tscript.png" alt="typscrpit" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                   </CardHeader>
                 </Card>
               </div>
@@ -144,7 +144,7 @@ const Skills = () => {
               <div className="space-y-1">
                 <Card className="w-[350px]">
                   <CardHeader>
-                    <img src="/nextjs.png" alt="nextjs" />
+                    <img src="/nextjs.png" alt="nextjs" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                   </CardHeader>
                 </Card>
               </div>
@@ -165,7 +165,7 @@ const Skills = () => {
                       href="https://portfolioenhanced.vercel.app/"
                       target="_blank"
                     >
-                      <img src="/Proj4screenshot.png" alt="portfolio2" />
+                      <img src="/shadcnui.png" alt="portfolio2" loading="eager" decoding="async" className="h-auto w-auto object-cover transition-all hover:scale-150 aspect-auto"/>
                     </Link>
                   </CardHeader>
                 </Card>
